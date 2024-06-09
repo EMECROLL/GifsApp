@@ -13,7 +13,7 @@ export class GifsService {
   public gifList: Gif[] = []
 
   private _tagsHistory: string[] = [];
-  private apiKey: string = 'p0iyXf7nOfY5xxaOqGuYulfFVb4ao8Ev';
+  private apiKey: string = 'qObSzpHyQNtElXyU6If5t935PIZhIUVk';
   private serviceUrl: string = 'https://api.giphy.com/v1/gifs'
 
   get tagsHistory() {
