@@ -1,0 +1,10 @@
+<h5>Buscar:</h5>
+<!-- keyup.enter es para cuando ya presiono la tecla enter -->
+<!-- #txtTagInput es la manera de nombrar localmente al input -->
+<input
+  type="text"
+  class="form-control"
+  placeholder="Buscar gifs..."
+  (keyup.enter)="searchTag()"
+  #txtTagInput
+>
